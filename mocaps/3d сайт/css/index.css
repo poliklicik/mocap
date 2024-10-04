@@ -1,0 +1,135 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: revert;
+}
+
+.logo a {
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.line {
+  width: 40px;
+  background-color: #fff;
+  height: 5px;
+  border-radius: 2px;
+}
+
+.line:not(:last-child) {
+  margin-bottom: 6px;
+
+}
+
+li button {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+}
+
+.join {
+  padding: 5px 30px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #147fdc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.main {
+  background-attachment: fixed;
+  background-color: #147fdc;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+svg{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#sec1 .content{
+  margin-top: -30vh;
+  position: sticky;
+  top: 0;
+}
+#sec2, #sec2 h2{
+  background-color: #fff;
+  color: #147fdc !important;
+}
+#sec3 svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+h2 {
+  color: #fff;
+  font-size: 10rem !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height:100px ;
+  margin: 5rem;
+}
+
+.content {
+  max-width: 900px;
+}
+
+.content p {
+  max-width: 500px;
+  margin: auto;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+}
+.wrapper-a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper-a a{
+  padding: 5px 30px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #147fdc;
+  text-decoration: none;
+}
+.wrapper-a a:last-child{
+  text-transform: capitalize;
+  font-weight: 500;
+}
